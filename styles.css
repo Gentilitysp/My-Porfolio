@@ -30,6 +30,13 @@ body {
   padding-top: 20px;
   height: 640px;
   overflow: hidden;
+  display: flexbox;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url("imgs/illustration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 80%;
 }
 
 .Welcome {
@@ -45,7 +52,7 @@ body {
   padding: 0 0 0 10px;
   align-items: center;
   margin-top: 10px;
-  font-family: 'Crete Round', serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff5e1;
 }
 
@@ -54,7 +61,7 @@ body {
   margin-top: 25px;
   align-items: center;
   font-size: 18px;
-  font-family: 'Crete Round', serif;
+  font-family: 'Poppins', sans-serif;
   z-index: 20;
   letter-spacing: 0.3px;
   color: #fff;
@@ -65,19 +72,18 @@ body {
   position: absolute;
 }
 
-.mobile-header {
-  margin-left: 250px;
-  float: right;
-  margin-top: -120px;
-  color: #fff5e1;
-}
-
 .social-media {
   margin-top: 30px;
+  display: flex;
 }
 
 .social-media > a {
   margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.media-link {
+  list-style: none;
   padding-left: 10px;
   padding-right: 10px;
 }
