@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.page-top {
+  background-color: #3c3a39;
+  padding: 0 0 0 0;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 35px 10px;
+  align-items: center;
+}
+
+.nav-items {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  align-items: center;
+  background-color: #1C1A19;
+  padding-top: 20px;
+  height: 640px;
+  overflow: hidden;
+}
+
+.Welcome {
+  padding: 15px 0 0 10px;
+  align-items: center;
+  font-size: 40px;
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+  margin-top: 35px;
+}
+
+.Welcome-h4 {
+  padding: 0 0 0 10px;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 'Crete Round', serif;
+  color: #fff5e1;
+}
+
+.content {
+  padding: 0 0 0 10px;
+  margin-top: 25px;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  z-index: 20;
+  letter-spacing: 0.30px;
+  color: #fff;
+}
+
+.mobile-logo {
+  z-index: 25;
+  position: absolute;
+}
+
+.mobile-header {
+  margin-left: 250px;
+  float: right;
+  margin-top: -120px;
+  color: #fff5e1;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media > a {
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
