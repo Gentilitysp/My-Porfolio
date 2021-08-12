@@ -2,7 +2,7 @@
 
 This is my Second prject titled My Portfolio using HTML5 and CSS3 only.
 
-![screenshot](./imgs/My Screenshot.png)
+![screenshot](./imgs/My-Screenshot.png)
 
 ## The following are some of the features of this project:
 
