@@ -92,7 +92,6 @@ body {
 .Middle-page {
   background-color: #e5e5e5;
   height: 100%;
-  /* overflow-x: hidden; */
   margin-top: -35px;
   padding-left: 20px;
   padding-right: 20px;
@@ -176,7 +175,6 @@ body {
   width: 100%;
   background-image: url("imgs/Img-Placeholder-1.png");
   background-repeat: no-repeat;
-  /* overflow-x: hidden; */
 }
 
 .grid-head {
@@ -239,7 +237,6 @@ body {
   background: #1c1a19;
   padding-left: 15px;
   padding-bottom: 60px;
-  /* overflow-x: hidden; */
 }
 
 .about-content {
