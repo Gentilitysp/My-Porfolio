@@ -150,7 +150,7 @@ body {
 
 .click {
   background-color: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   height: 40px;
   width: auto;
   padding: -10px;
@@ -159,7 +159,7 @@ body {
 }
 
 .click:hover {
-  background: #fff5E1;
+  background: #fff5e1;
   border: 1px solid #f55800;
   box-sizing: border-box;
 }
@@ -171,7 +171,7 @@ body {
   padding-bottom: 90px;
 }
 
-.grid-body{
+.grid-body {
   width: 100%;
   background-image: url("imgs/Img-Placeholder-1.png");
   background-repeat: no-repeat;
@@ -182,7 +182,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   padding-top: 55px;
-  color: #ffffff;
+  color: #fff;
   font-weight: normal;
   padding-left: 10px;
 }
@@ -192,13 +192,12 @@ body {
   font-size: 16px;
   padding-left: 10px;
   line-height: 25px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .grid-buttons {
   display: flex;
   margin-left: -35px;
-
 }
 
 .grid-buttons-text {
@@ -214,7 +213,7 @@ body {
 
 .grid-buttons-text > a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .grid-click {
@@ -228,8 +227,8 @@ body {
 }
 
 .grid-click:hover {
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
   box-sizing: border-box;
 }
 
@@ -258,7 +257,7 @@ body {
   font-family: 'Crete Round', serif;
   font-size: 70px;
   line-height: 40px;
-  color: #ffffff;
+  color: #fff;
   font-weight: normal;
 }
 
@@ -273,7 +272,7 @@ body {
 
 .resume {
   background-color: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   height: 35px;
   width: auto;
   padding: -10px;
@@ -282,7 +281,7 @@ body {
 }
 
 .resume:hover {
-  background: #FFF5E1;
+  background: #fff5e1;
   border: 1px solid #F55800;
   box-sizing: border-box;
 }
@@ -304,16 +303,18 @@ body {
   height: 18px;
   background-color: #ff6b00;
 }
+
 .diamond {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
+
 .circle {
   border-radius: 100%;
 }
 
 .items-h {
   padding-left: 15px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .items {
@@ -328,7 +329,7 @@ body {
 }
 
 .items-link > a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
