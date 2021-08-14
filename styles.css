@@ -33,9 +33,9 @@ body {
 }
 
  .page-top {
-  background-color: #3c3a39;
-  align-items: center;
-  letter-spacing: 0.35px;
+   background-color: #3c3a39;
+   align-items: center;
+   letter-spacing: 0.35px;
 }
 
 .top-nav {
@@ -198,7 +198,6 @@ body {
 }
 
 .grid-text {
-
   padding-left: 10px;
   line-height: 25px;
   color: #fff;
@@ -245,6 +244,7 @@ body {
   background: #1c1a19;
   padding-left: 15px;
   padding-bottom: 60px;
+  margin-top: 80px;
 }
 
 .about-content {
@@ -279,10 +279,10 @@ body {
   margin-top: -20px;
 }
 
-.resume {
+.click {
   background-color: #ff6b00;
   height: 35px;
-  width: 100%;
+  width: auto;
   padding: -10px;
   border: none;
 }
