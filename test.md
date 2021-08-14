@@ -1,1 +1,0 @@
-Ignore commented areas
