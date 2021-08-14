@@ -8,6 +8,7 @@ body {
 
 .page-top {
   background-color: #3c3a39;
+
   /* padding: 0 0 0 0; */
   align-items: center;
   letter-spacing: 0.35px;
@@ -168,8 +169,10 @@ body {
 .grid {
   display: flex;
   flex-direction: column;
+
   /* display: grid; */
   margin-top: 20px;
+
   /* grid-gap: 20px; */
   padding-bottom: 90px;
 }
@@ -280,6 +283,7 @@ body {
   height: 35px;
   width: auto;
   padding: -10px;
+  
   /* margin-top: -5px; */
   border: none;
 }
