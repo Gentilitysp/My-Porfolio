@@ -1,14 +1,14 @@
 body {
   margin: 0;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 .page-top {
   background-color: #3c3a39;
-  padding: 0 0 0 0;
+  /* padding: 0 0 0 0; */
   align-items: center;
   letter-spacing: 0.35px;
 }
@@ -16,7 +16,7 @@ body {
 .top-nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px 10px 65px 10px;
+  padding: 10px 5px 65px 10px;
   align-items: center;
 }
 
@@ -30,7 +30,7 @@ body {
   width: 100%;
   background-color: #1c1a19;
   padding-top: 30px;
-  height: 635px;
+  height: 640px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -93,8 +93,9 @@ body {
   background-color: #e5e5e5;
   height: 100%;
   margin-top: -35px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
 }
 
 .Middle-page > h1 {
@@ -131,7 +132,7 @@ body {
 
 .buttons {
   display: flex;
-  margin-left: -14%;
+  margin-left: -12%;
 }
 
 .button-text {
@@ -165,9 +166,11 @@ body {
 }
 
 .grid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  /* display: grid; */
   margin-top: 20px;
-  grid-gap: 20px;
+  /* grid-gap: 20px; */
   padding-bottom: 90px;
 }
 
@@ -175,6 +178,7 @@ body {
   width: 100%;
   background-image: url("imgs/Img-Placeholder-1.png");
   background-repeat: no-repeat;
+  margin-top: 10px;
 }
 
 .grid-head {
@@ -220,7 +224,7 @@ body {
   background-color: #ff6b00;
   color: #fff;
   height: 40px;
-  width: 100%;
+  width: 91.8%;
   padding: -10px;
   margin-top: -10px;
   border: none;
@@ -242,7 +246,7 @@ body {
   width: 100%;
   background-color: #1c1a19;
   padding-top: 30px;
-  height: 635px;
+  height: 640px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -276,7 +280,7 @@ body {
   height: 35px;
   width: auto;
   padding: -10px;
-  margin-top: -10px;
+  /* margin-top: -5px; */
   border: none;
 }
 
@@ -315,6 +319,9 @@ body {
 .items-h {
   padding-left: 15px;
   color: #fff;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
 }
 
 .items {
@@ -326,9 +333,6 @@ body {
 
 .items-link {
   line-height: 45px;
-}
-
-.items-link > a {
   color: #fff;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
