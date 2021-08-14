@@ -164,16 +164,6 @@ body {
   text-decoration: none;
 }
 
-.click {
-  background-color: #ff6b00;
-  color: #fff;
-  height: 40px;
-  width: auto;
-  padding: -10px;
-  margin-top: -10px;
-  border: none;
-}
-
 .grid {
   display: flex;
   flex-direction: column;
@@ -279,12 +269,6 @@ body {
   width: auto;
   padding: -10px;
   border: none;
-}
-
-.resume:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  box-sizing: border-box;
 }
 
 .about-content > hr {
