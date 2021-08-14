@@ -302,6 +302,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: -40px;
 }
 
 .my-shape {
@@ -339,4 +340,6 @@ body {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
+  align-items: center;
+  margin-left: -60px;
 }
