@@ -32,10 +32,16 @@ body {
   color: #fff;
 }
 
- .page-top {
-   background-color: #3c3a39;
-   align-items: center;
-   letter-spacing: 0.35px;
+.hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+}
+
+.page-top {
+  background-color: #3c3a39;
+  align-items: center;
+  letter-spacing: 0.35px;
 }
 
 .top-nav {
@@ -168,12 +174,6 @@ body {
   border: none;
 }
 
-.click:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  box-sizing: border-box;
-}
-
 .grid {
   display: flex;
   flex-direction: column;
@@ -232,12 +232,6 @@ body {
   padding: -10px;
   margin-top: -10px;
   border: none;
-}
-
-.grid-click:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  box-sizing: border-box;
 }
 
 .about-area {
