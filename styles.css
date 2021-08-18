@@ -330,3 +330,23 @@ body {
   padding: 0 0 0 30px;
   margin-top: 120px;
 }
+
+/* Chimaijem Addings*/
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  margin-left: 15px;
+  margin-right: 30px;
+  border-bottom: 0.5px solid blue;
+  width: 85%;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #979493;
+}
+
+.no-outline:focus {
+  outline: none;
+}
