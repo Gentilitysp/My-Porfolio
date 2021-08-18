@@ -3,6 +3,10 @@
 This is my Second prject titled My Portfolio using HTML5 and CSS3 only.
 
 ![screenshot](./imgs/My-Screenshot.png)
+![screenshot](./imgs/contact-form2.png)
+
+# live Demo link
+[live demo link](https://gentilitysp.github.io/My-Logo/)
 
 ## The following are some of the features of this project:
 
@@ -11,6 +15,8 @@ This is my Second prject titled My Portfolio using HTML5 and CSS3 only.
 2. Has a Header
 3. Has a background image
 4. Has a body
+5. footer
+6. text arear
 
 ## Built With
 
