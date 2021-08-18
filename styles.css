@@ -334,11 +334,12 @@ body {
 /* Chimaijem Addings */
 
 input {
+  display: flex;
+  align-items: center;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   margin-left: 15px;
-  margin-right: 30px;
   border-bottom: 0.5px solid blue;
   width: 85%;
   padding-bottom: 30px;
@@ -362,6 +363,8 @@ input {
 
 .contact-form label input,
 .contact-form label textarea {
+  display: flex;
+  align-items: center;
   height: 100px;
   width: 87%;
   margin-left: 15px;
@@ -370,7 +373,6 @@ input {
   color: #172b4d;
   border: 2px solid #cfd8dc;
   margin-top: 25px;
-  align-items: center;
 }
 
 .button-container {
@@ -388,6 +390,7 @@ input {
   justify-content: space-between;
   margin: 75px 80px 0 auto;
   width: 200px;
+  color: #505f79;
 }
 
 .line {
@@ -397,4 +400,5 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 23px;
+  margin-bottom: 8px;
 }
