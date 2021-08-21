@@ -136,9 +136,7 @@ section.headline h1 {
   letter-spacing: 0.37px;
   color: #ff6b00;
   width: 370px;
-
-  /* animation: slide-left 2s ease-in-out 0.5s; */
-
+  animation: slide-left 2s ease-in-out 0.5s;
   z-index: 2;
 }
 
