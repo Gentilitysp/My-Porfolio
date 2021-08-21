@@ -98,7 +98,7 @@ header div.collapse-menu ul li {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 992px)px) {
   header a.logo {
     font-size: 18px;
   }
@@ -240,7 +240,7 @@ section.headline .social-media li a i.fa-github {
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 991.99px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   section.headline {
     padding: 120px 0 10px 24px;
     height: 590px;
@@ -459,7 +459,7 @@ section.works .cards .card a:hover {
   color: #ff6b00;
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 992px)px) {
   section.works {
     margin-top: 55px;
     grid-template-columns: 320px;
@@ -638,7 +638,7 @@ section.about .skills ul.items li {
   text-align: center;
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 992px)px) {
   section.about .description {
     position: relative;
     height: 650px;
@@ -742,7 +742,7 @@ section.form form.contact-form .form-control textarea::placeholder {
   background-color: rgba(224, 83, 4, 1);
 }
 
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 992px)px) {
   section.form {
     flex-direction: column;
     align-items: center;
