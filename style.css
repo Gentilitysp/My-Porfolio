@@ -136,9 +136,8 @@ section.headline h1 {
   letter-spacing: 0.37px;
   color: #ff6b00;
   width: 370px;
-  
-  /* By Isaac*/
 
+  /* By Isaac */
   animation: slide-left 2s ease-in-out 0.5s;
   z-index: 2;
 }
@@ -174,8 +173,7 @@ section.headline .social-media li a i {
   color: #fff;
   font-size: 20px;
 
- /* By CHimaijem */
-
+  /* By CHimaijem */
   animation: spin 1s ease-in-out 2s;
 }
 
