@@ -133,7 +133,9 @@ section.headline h1 {
   letter-spacing: 0.37px;
   color: #ff6b00;
   width: 370px;
+
   /* animation: slide-left 2s ease-in-out 0.5s; */
+
   z-index: 2;
 }
 
@@ -167,7 +169,9 @@ section.headline .social-media {
 section.headline .social-media li a i {
   color: #fff;
   font-size: 20px;
+
   /* animation: spin 1s ease-in-out 2s; */
+  
 }
 
 section.headline .social-media li a i.fa-github {
