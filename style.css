@@ -171,7 +171,6 @@ section.headline .social-media li a i {
   font-size: 20px;
 
   /* animation: spin 1s ease-in-out 2s; */
-  
 }
 
 section.headline .social-media li a i.fa-github {
@@ -265,6 +264,7 @@ section.headline .social-media li a i.fa-github {
 }
 
 /* Start Works */
+
 section.works {
   margin-top: 55px;
 }
@@ -666,6 +666,7 @@ section.about .skills ul.items li {
 }
 
 /* Start Contact Form  */
+
 section.form {
   display: flex;
   justify-content: space-evenly;
