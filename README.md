@@ -7,7 +7,7 @@ This is my Second prject titled My Portfolio using HTML5 and CSS3 only.
 ![screenshot](./imgs/Desktop-version.PNG)
 
 # live Demo link
-[live demo link](https://gentilitysp.github.io/My-Porfolio)
+[live demo link](https://gentilitysp.github.io/My-Porfolio/)
 
 ## The following are some of the features of this project:
 
