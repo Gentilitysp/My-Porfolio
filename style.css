@@ -65,6 +65,8 @@ header {
   align-items: center;
   background-color: #3c3a39;
   padding: 10px 20px;
+  animation: slide-left 2s ease-in-out 0.5s;
+  z-index: 2;
 }
 
 header a.logo {
@@ -264,6 +266,8 @@ section.headline .social-media li a i.fa-github {
     width: 200px;
     transform: none;
     height: auto;
+    animation: pop-up 2s ease-in-out 0.5s;
+    z-index: 2;
   }
 }
 
@@ -390,7 +394,7 @@ section.works .cards .card:hover {
 
 section.works .cards .card:nth-child(1),
 section.works .cards .card:nth-child(4) {
-  background: url(./imgs/card1.png);
+  background: url(./imgs/Img-Placeholder-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -517,7 +521,7 @@ section.works .cards .card a:hover {
   }
 
   section.works .cards .card {
-    background: url(imgs/card.png);
+    background: url(imgs/card1.png);
   }
 }
 
