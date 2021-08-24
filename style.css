@@ -65,6 +65,8 @@ header {
   align-items: center;
   background-color: #3c3a39;
   padding: 10px 20px;
+  animation: slide-left 2s ease-in-out 0.5s;
+  z-index: 2;
 }
 
 header a.logo {
@@ -124,7 +126,7 @@ section.headline {
   justify-content: flex-start;
   padding: 192px 0 10px 90px;
   height: 870px;
-  background-image: url(./images/bg-headline-bs.png);
+  background-image: url(./imgs/bg-headline-bs.png);
   background-position: 100% -50%;
   background-repeat: no-repeat;
 }
@@ -207,7 +209,7 @@ section.headline .social-media li a i.fa-github {
   section.headline {
     padding: 120px 0 10px 24px;
     height: 590px;
-    background-image: url(./images/bg-headline-ss.png);
+    background-image: url(./imgs/bg-headline-ss.png);
     background-position: 102% 100%;
   }
 
@@ -248,7 +250,7 @@ section.headline .social-media li a i.fa-github {
   section.headline {
     padding: 120px 0 10px 24px;
     height: 590px;
-    background-image: url(./images/bg-headline-ss.png);
+    background-image: url(./imgs/bg-headline-ss.png);
     background-position: 102% 100%;
   }
 
@@ -264,6 +266,8 @@ section.headline .social-media li a i.fa-github {
     width: 200px;
     transform: none;
     height: auto;
+    animation: pop-up 2s ease-in-out 0.5s;
+    z-index: 2;
   }
 }
 
@@ -390,21 +394,21 @@ section.works .cards .card:hover {
 
 section.works .cards .card:nth-child(1),
 section.works .cards .card:nth-child(4) {
-  background: url(./images/card.png);
+  background: url(./imgs/Img-Placeholder-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 section.works .cards .card:nth-child(2),
 section.works .cards .card:nth-child(5) {
-  background-image: url(./images/card3.png);
+  background-image: url(./imgs/card3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 section.works .cards .card:nth-child(3),
 section.works .cards .card:nth-child(6) {
-  background-image: url(./images/card2.png);
+  background-image: url(./imgs/card2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -517,7 +521,7 @@ section.works .cards .card a:hover {
   }
 
   section.works .cards .card {
-    background: url(images/card.png);
+    background: url(imgs/card1.png);
   }
 }
 
@@ -537,7 +541,7 @@ section.about {
 section.about .description {
   position: relative;
   height: 650px;
-  background: url(/images/about-bs.png);
+  background: url(/imgs/about-bs.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   margin-left: 150px;
@@ -646,7 +650,7 @@ section.about .skills ul.items li {
   section.about .description {
     position: relative;
     height: 650px;
-    background: url(/images/about-ss.png);
+    background: url(/imgs/about-ss.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     margin-left: 24px;
