@@ -88,8 +88,51 @@ header nav.menu-icons span {
   cursor: pointer;
 }
 
+.mobile-menu-hidden {
+  display: none;
+}
 
+#menu-button {
+  border: none;
+  background-color: #3C3A39;
+  color: #fff;
+}
 
+.show {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  background-color: #3C3A39;
+}
+
+#close-button {
+  margin-left: auto;
+  display: inline-block;
+}
+
+#mobile-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.menu-links {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  border-bottom: 1px solid #6F6C6B;
+}
+
+#mobile-menu > a {
+  padding-top: 5%;
+}
 
 header div.collapse-menu {
   width: 300px;
