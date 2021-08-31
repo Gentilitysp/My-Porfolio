@@ -32,14 +32,15 @@
 
   <header>
     <a href="/" class="logo">Chimaijem</a>
-    <nav class="menu-icons">
+    <nav class="menu-icons" id="menu-button">
       <span></span>
       <span></span>
       <span></span>
     </nav>
+  
     <div class="collapse-menu">
       <ul class="d-flex align-center inter-font">
-        <li>Portfolio</li>
+        <a href=""><li>Portfolio</li></a>
         <li>About</li>
         <li>Contact</li>
         <li><i class="far fa-envelope"></i></li>
@@ -47,10 +48,12 @@
     </div>
   </header>
 
+
   <!-- End Navbar -->
   <!-- Start Headline -->
 
   <section class="headline">
+    <div id="mobile-menu"></div>
     <h1 class="crete-font">Hey There. I’m Alex</h1>
     <h2 class="inter-font">I’am a Software Developer</h2>
     <p class="inter-font">
@@ -92,7 +95,7 @@
   <!-- End Headline -->
   <!-- Start Works -->
 
-  <section class="works">
+  <section class="works" id="actual-work-section">
     <h2 class="crete-font">My Recent Works</h2>
     <div class="featured-project">
       <div class="image-container">
@@ -220,7 +223,7 @@
   <!-- End Works -->
   <!-- Start About -->
 
-  <section class="about">
+  <section class="about" id="menu-about">
     <div class="description">
       <h2 class="crete-font">About me</h2>
       <p class="descrip inter-font">
@@ -273,7 +276,7 @@
   <!-- End About -->
   <!-- Start Conact Form -->
   
-  <section class="form">
+  <section class="form" id="menu-contact">
     <h2 class="inter-font contact-title">
       I'm always interested in hearing about new projects,
       so if you'd like to chat please get in touch.
@@ -329,6 +332,7 @@
     </ul>
   </section>
   <!-- End Social Media -->
+  <script src="script.js"></script>
 </body>
 
 </html>
