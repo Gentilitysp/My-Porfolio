@@ -53,3 +53,4 @@ const anchorTagLinks = document.querySelectorAll('.menu-links');
 anchorTagLinks.forEach((link) => {
   link.addEventListener('click', closePop);
 });
+
