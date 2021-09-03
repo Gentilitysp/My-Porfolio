@@ -929,6 +929,9 @@ section.form form.contact-form .form-control textarea::placeholder {
   }
 }
 
+#message-validator {
+  font-size: 16px;
+}
 /* Start Social Media */
 section.social-media {
   margin: 162px auto 40px auto;
