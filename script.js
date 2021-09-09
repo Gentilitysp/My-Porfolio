@@ -53,21 +53,3 @@ const anchorTagLinks = document.querySelectorAll('.menu-links');
 anchorTagLinks.forEach((link) => {
   link.addEventListener('click', closePop);
 });
-
-const pop = document.getElementById('myModal');
-const btn = document.querySelectorAll('.inter-font');
-function displayModal() {
-  pop.style.display = 'block';
-}
-// var span = document.getElementsByClassName('close') [0];
-btn.forEach((item) => {
-  item.addEventListener('click', displayModal);
-});
-// span.onclick = function() {
-//   pop.style.display = 'none';
-// }
-// window.onclick = function(event) {
-//   if (event.target == pop) {
-//       pop.style.display = 'none';
-//   }
-// }
