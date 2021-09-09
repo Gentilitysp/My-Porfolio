@@ -352,7 +352,6 @@ section.headline .social-media li a i.fa-github {
 
 .modal {
   /* display: flex; */
-  
   flex-direction: column;
   position: fixed;
   justify-content: center;
@@ -378,7 +377,7 @@ section.headline .social-media li a i.fa-github {
 }
 
 .modal-content .modal-heading {
-  font-family: Roboto;
+  font-family: Roboto sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -398,7 +397,7 @@ section.headline .social-media li a i.fa-github {
 }
 
 .modal-describ {
-  font-family: Inter;
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -415,7 +414,7 @@ section.headline .social-media li a i.fa-github {
 }
 
 #modalList .list-skills {
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 13px;
@@ -425,11 +424,12 @@ section.headline .social-media li a i.fa-github {
   padding: 5px;
   margin: 0 0 16px;
 }
+
 .modalImg {
   margin: 0 08px;
 }
 
-.double-btn {
+/* .double-btn {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -438,7 +438,7 @@ section.headline .social-media li a i.fa-github {
 }
 
 .double-btn a {
-  font-family: Inter;
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -456,7 +456,7 @@ section.headline .social-media li a i.fa-github {
 
 .Btn1 .fab.fa-github {
   margin: 5px;
-}
+} */
 
 /* End of modal */
 
