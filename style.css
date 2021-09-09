@@ -385,7 +385,7 @@ section.headline .social-media li a i.fa-github {
 /* Start of modal */
 
 .modal {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   position: fixed;
   justify-content: center;
@@ -400,7 +400,7 @@ section.headline .social-media li a i.fa-github {
   padding: 16px;
   margin: 16px;
   background-color: #fff;
-  overflow-y: auto;
+  overflow-y: auto;*/
 }
 
 .modal-content {
