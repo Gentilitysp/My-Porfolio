@@ -7,7 +7,7 @@ anchorTag.style.justifyContent = 'flex-end';
 anchorTag.style.marginBottom = '10%';
 anchorTag.style.marginRight = '10%';
 const closingIcon = document.createElement('IMG');
-closingIcon.setAttribute('src', 'img/Icon.png');
+closingIcon.setAttribute('src', 'imgs/Icon.png');
 closingIcon.setAttribute('alt', 'icon image');
 closingIcon.id = 'close-button';
 anchorTag.appendChild(closingIcon);

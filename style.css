@@ -349,127 +349,102 @@ section.headline .social-media li a i.fa-github {
 }
 
 /* Start of modal */
-/* #modal {
-  display: none;
+
+/* .modal {
+  display: flex;
+  flex-direction: column;
   position: fixed;
-  backdrop-filter: blur(8px);
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
   right: 0;
-  left: 0;
   top: 0;
+  left: 0;
   bottom: 0;
   z-index: 200;
+  backdrop-filter: blur(15px);
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  overflow-y: auto;
 }
 
-#modal .content {
-  border: 1px solid #ff6b00;
-  background-color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 26px;
-  margin-right: 26px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: calc(100vh - 80px);
-}
-
-#modal .heading {
+.modal-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
-#modal .close {
-  padding: 14px;
-}
-
-#modal .heading h2 {
-  color: #172b4d;
-  font-family: 'Roboto', sans-serif;
+.modal-content .modal-heading {
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 44px;
+  font-size: 32px;
+  line-height: 40px;
 }
 
-#modal .image {
-  width: 100%;
-  object-fit: cover;
-  min-height: 100px;
+.closeBtn {
+  color: #ccc;
+  font-size: 30px;
+  margin-top: 5px;
 }
 
-#modal .description {
-  color: #344563;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: 24px;
-  flex-shrink: 1;
-  min-height: 0;
-  overflow: auto;
+.closeBtn:hover,.closeBtn:focus {
+  color: black;
+  cursor: pointer;
 }
 
-.img-p-button {
+#modalList {
   display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  min-height: 0;
-  flex-basis: 100%;
-}
-
-.p-button {
-  min-height: 0;
-  flex-shrink: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  flex-grow: 1;
+  align-items: center;
+  margin-right: 35px;
 }
 
-.first-button {
-  background-color: #ff6b00;
-  padding: 14px;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
+#modalList .list-skills {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 16px;
+  border: 1px solid silver;
+  text-align: center;
+  padding: 5px;
+  margin: 0 0 16px;
+}
+
+.double-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  margin: 8px 0 16px;
+}
+
+.double-btn a {
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  width: 100%;
+  line-height: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 4px;
+  background-color: #ff6b00;
+}
+.Btn1 img {
+  margin: 5px;
 }
 
-.first-button:hover {
-  background-color: #fff5e1;
-  color: #ff6b00;
-  border: 1px solid transparent;
-  box-sizing: border-box;
-}
-
-.first-button:enabled {
-  background-color: #f55800;
-  color: #fff;
-}
-
-.first-button:disabled {
-  background-color: #f4f1f0;
-  color: #5b5957;
-}
-
-.double-button {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin-top: 16px;
+.Btn1 .fab.fa-github {
+  margin: 5px;
 } */
+
 /* End of modal */
+
 /* Start Works */
 
 section.works {
