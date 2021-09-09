@@ -352,6 +352,7 @@ section.headline .social-media li a i.fa-github {
 
 .modal {
   /* display: flex; */
+  
   flex-direction: column;
   position: fixed;
   justify-content: center;
