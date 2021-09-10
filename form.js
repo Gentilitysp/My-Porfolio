@@ -10,10 +10,10 @@ templateForm.addEventListener('submit', (e) => {
   }
 });
 // Start of Local Storage code
-const emailAddress = document.getElementById('mail');
+// const emailAddress = document.getElementById('mail');
 const fullName = document.getElementById('name');
 const textMessage = document.getElementById('message');
-const templateForm = document.getElementById('form');
+// const templateForm = document.getElementById('form');
 templateForm.addEventListener('input', () => {
   const localStorageObject = {
     name: fullName.value,
