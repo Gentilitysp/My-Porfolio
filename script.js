@@ -7,7 +7,7 @@ anchorTag.style.justifyContent = 'flex-end';
 anchorTag.style.marginBottom = '10%';
 anchorTag.style.marginRight = '10%';
 const closingIcon = document.createElement('IMG');
-closingIcon.setAttribute('src', 'img/Icon.png');
+closingIcon.setAttribute('src', 'imgs/Icon.png');
 closingIcon.setAttribute('alt', 'icon image');
 closingIcon.id = 'close-button';
 anchorTag.appendChild(closingIcon);
@@ -54,7 +54,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
-    image: 'img/a.jpg',
+    image: 'imgs/a.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
@@ -62,7 +62,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia',
-    image: 'img/e.jpg',
+    image: 'imgs/e.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
@@ -70,7 +70,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
-    image: 'img/b.jpg',
+    image: 'imgs/b.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
@@ -78,7 +78,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'To popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia fnfifdfdifhfio fjnkfvkfvfkjfdf jkfndfkdfklgfjkdfnkkjkl jkdfsk',
-    image: 'img/a.jpg',
+    image: 'imgs/a.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
@@ -86,7 +86,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a kjbdfkjfvjfvjfvjjo jnffnjvjnvm jgxcgmnklbnfkf ofgngd;fnfkfsip kpgsngfnfjokjf fspkl',
-    image: 'img/c.jpg',
+    image: 'imgs/c.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
@@ -94,7 +94,7 @@ const details = [
   {
     name: 'Multi School Stories',
     description: 'khfjfjfusjfj nvnvsdjdv jdnbvsd jdsjdsklddnd ksvbfkfjf jdnjkfjf kdjdkdfjjk lnbnfklfnffn jbdndbdnkdddjdd dblkjsjksklss dfhfjfhfsfsh jfndfjdnffnnfnfklslsljkfjff jfnfjfjnfnfn fnfjfjfjvmfbvv   v vnnvnnvnvnvnvnv vnvnvjdnknxj jfdp[fpffnfmfkfj nvfjfjffjfjjfjff jgjkgjkgjkgkj',
-    image: 'img/f.jpg',
+    image: 'imgs/f.jpg',
     technologies: ['ruby', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
