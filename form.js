@@ -9,7 +9,7 @@ templateForm.addEventListener('submit', (e) => {
     validatorMessage.textContent = '';
   }
 });
-
+const templateForm = document.getElementById('form');
 const formInputs = form.querySelectorAll('input, textarea');
 const fullName = document.getElementById('name');
 const textMessage = document.getElementById('message');
