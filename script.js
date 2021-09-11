@@ -123,6 +123,7 @@ SeeProjectButton.forEach((item, i) => {
     source.href = projectDetail.source;
   });
 });
+// Dynamically selecting all the project cards
 const SeeCardButton = document.querySelectorAll('.click-card');
 SeeCardButton.forEach((item, i) => {
   item.addEventListener('click', () => {
@@ -139,12 +140,14 @@ SeeCardButton.forEach((item, i) => {
     languages.forEach((li, s) => {
       li.textContent = projectDetail.technologies[s];
     });
+    // Declaring the popup buttons
     const live = windowPop.querySelectorAll('.first-button')[0];
     live.href = projectDetail.live;
     const source = windowPop.querySelectorAll('.first-button')[1];
     source.href = projectDetail.source;
   });
 });
+// Declaring the click and close command for he buttons
 const closeProjectButton = document.querySelector('.close');
 closeProjectButton.addEventListener('click', () => {
   const windowPop = document.querySelector('#modal');
