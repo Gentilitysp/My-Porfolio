@@ -53,15 +53,15 @@ anchorTagLinks.forEach((link) => {
 const details = [
   {
     name: 'Multi School Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry and typesetting industry. Lorem Ipsum has been the industry',
-    image: 'imgs/c.jpg',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: './imgs/ten.png',
     technologies: ['ruby on rails', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
     source: 'https://github.com/Gentilitysp/My-Porfolio',
   },
   {
     name: 'Multi School Stories',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgs/a.jpg',
     technologies: ['ruby on rails', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
@@ -77,7 +77,7 @@ const details = [
   },
   {
     name: 'Multi School Stories',
-    description: 'To popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia fnfifdfdifhfio fjnkfvkfvfkjfdf jkfndfkdfklgfjkdfnkkjkl jkdfsk',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'imgs/e.jpg',
     technologies: ['ruby on rails', 'css', 'javascript', 'bootsrap'],
     live: 'https://gentilitysp.github.io/My-Porfolio/',
