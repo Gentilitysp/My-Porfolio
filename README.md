@@ -5,6 +5,8 @@ This is my Second prject titled My Portfolio using HTML5 and CSS3 only.
 ![screenshot](./imgs/My-Screenshot.png)
 ![screenshot](./imgs/Contact-form2.png)
 ![screenshot](./imgs/Desktop-version.PNG)
+![screenshot](./imgs/mobile.menu.PNG)
+![screenshot](./imgs/modal-p.PNG)
 
 # live Demo link
 [live demo link](https://gentilitysp.github.io/My-Porfolio/)
