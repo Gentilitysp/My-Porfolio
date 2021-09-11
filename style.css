@@ -88,6 +88,83 @@ header nav.menu-icons span {
   cursor: pointer;
 }
 
+.mobile-menu-hidden {
+  display: none;
+}
+
+#menu-button {
+  border: none;
+  background-color: #3c3a39;
+  color: #fff;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  background-color: #3c3a39;
+}
+
+#close-button {
+  margin-left: auto;
+  display: inline-block;
+}
+
+#mobile-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.menu-links {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+section.works .featured-project .content a {
+  padding: 12px;
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  transition: 0.4s;
+}
+
+section.works .featured-project .content a:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+section.works .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px 0;
+  padding-left: 25px;
+}
+
+section.works .cards .card a:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+#mobile-menu > a {
+  padding-top: 5%;
+}
+
 header div.collapse-menu {
   width: 300px;
 }
@@ -271,6 +348,118 @@ section.headline .social-media li a i.fa-github {
   }
 }
 
+/* Start of modal */
+
+.modal {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 200;
+  backdrop-filter: blur(15px);
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.modal-content .modal-heading {
+  /* font-family: 'Roboto', sans-serif; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.closeBtn {
+  color: #ccc;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: black;
+  cursor: pointer;
+}
+
+.modal-describ {
+  /* font-family: 'Inter', sans-serif; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #344563;
+  margin-top: 10px;
+}
+
+#modalList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+}
+
+#modalList .list-skills {
+  /* font-family: 'Poppins', sans-serif; */
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 16px;
+  border: 1px solid silver;
+  text-align: center;
+  padding: 5px;
+  margin: 0 0 16px;
+}
+
+.modalImg {
+  margin: 0 08px;
+}
+
+/* .double-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  margin: 8px 0 10px;
+}
+
+.double-btn a {
+  font-family: Inter sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 4px;
+  background-color: #ff6b00;
+}
+.Btn1 img {
+  margin: 5px;
+}
+
+.Btn1 .fab.fa-github {
+  margin: 5px;
+} */
+
+/* End of modal */
+
 /* Start Works */
 
 section.works {
@@ -347,32 +536,6 @@ section.works .featured-project .content ul li {
   color: #091e42;
   margin-right: 12px;
   padding: 10px 5px;
-}
-
-section.works .featured-project .content a {
-  padding: 12px;
-  background: #ff6b00;
-  border: 1px solid #ff6b00;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #fff;
-  transition: 0.4s;
-}
-
-section.works .featured-project .content a:hover {
-  background: #fff;
-  color: #ff6b00;
-}
-
-section.works .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 30px 0;
-  padding-left: 25px;
 }
 
 section.works .cards .card {
@@ -462,11 +625,6 @@ section.works .cards .card a.inter-font {
   transition: 0.4s;
 }
 
-section.works .cards .card a:hover {
-  background: #fff;
-  color: #ff6b00;
-}
-
 @media screen and (max-width: 992px) {
   section.works {
     margin-top: 55px;
@@ -532,6 +690,7 @@ section.works .cards .card a:hover {
 }
 
 /* Start About */
+
 section.about {
   background: rgba(28, 26, 25, 1);
   padding-bottom: 10px;
