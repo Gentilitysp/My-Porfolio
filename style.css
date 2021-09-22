@@ -348,6 +348,103 @@ section.headline .social-media li a i.fa-github {
   }
 }
 
+/* Start of modal */
+
+/* .modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 200;
+  backdrop-filter: blur(15px);
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.modal-content .modal-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.closeBtn {
+  color: #ccc;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.closeBtn:hover,.closeBtn:focus {
+  color: black;
+  cursor: pointer;
+}
+
+#modalList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+}
+
+#modalList .list-skills {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 16px;
+  border: 1px solid silver;
+  text-align: center;
+  padding: 5px;
+  margin: 0 0 16px;
+}
+
+.double-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  margin: 8px 0 16px;
+}
+
+.double-btn a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 4px;
+  background-color: #ff6b00;
+}
+.Btn1 img {
+  margin: 5px;
+}
+
+.Btn1 .fab.fa-github {
+  margin: 5px;
+} */
+
+/* End of modal */
+
 /* Start Works */
 
 section.works {
@@ -818,6 +915,15 @@ section.form form.contact-form .form-control textarea::placeholder {
   section.form form.contact-form div.form-control {
     width: 100%;
   }
+}
+
+#validator-message {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(168, 151, 151);
+  align-items: center;
+  animation: blink 1s ease-in-out 2s;
 }
 
 /* Start Social Media */

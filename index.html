@@ -95,9 +95,36 @@
   </section>
 
   <!-- End Headline -->
+
   <!-- Start Works -->
 
    <section class="works" id="actual-work-section">
+     <!-- Start of modal-popup -->
+     
+     <!-- <button id="modalBtn" class="see-project">Click here</button>
+     <div id="simpleModal" class="modal">
+       <div class="modal-content">
+        <h3 class="modal-heading">Multi Post Stories</h3>
+         <span class="closeBtn">&times;</span>
+       </div>
+       <ul id="modalList" class="modal-list">
+         <li class="list-skills">Html</li>
+         <li class="list-skills">CSS</li>
+         <li class="list-skills">Bootstrap</li>
+         <li class="list-skills">Ruby on Rails</li>
+       </ul>
+       <img id="modalImg" class="modalImage" src="imgs/ten.png" alt="Modal Image">
+       <p class="modal-describ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+        <div id="doubleBtn" class="double-btn">
+          <a class="Btn1" href="/">See Live <img src="imgs/live-icon.png" width="18" alt="live-icon"></a>
+          <a class="Btn1" href="/">See Source <i class="fab fa-github"></i></a>
+        </div>
+     </div> -->
+
+  <!-- End of modal -->
+
     <h2 class="crete-font">My Recent Works</h2>
     <div class="featured-project">
       <div class="image-container">
@@ -117,7 +144,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -136,7 +163,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -152,7 +179,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -168,7 +195,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -184,7 +211,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -200,7 +227,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -216,7 +243,7 @@
           <li>bootstrap</li>
           <li>ruby</li>
         </ul>
-        <a href="/" class="inter-font see-project">
+        <a href="/" class="inter-font .project-button2">
           See Project
         </a>
       </div>
@@ -284,14 +311,14 @@
       I'm always interested in hearing about new projects,
       so if you'd like to chat please get in touch.
     </h2>
-    <form action="https://formspree.io/f/xjvjagad" method="post" class="contact-form">
+    <form action="https://formspree.io/f/xjvjagad" method="post" class="contact-form" id="form">
       <div class="form-control">
         <label for="name" class="sr-only">Full Name</label>
         <input type="text" name="name" id="name" maxlength="30" placeholder="Full Name" pattern=".{1-30}" required>
       </div>
       <div class="form-control">
-        <label for="email" class="sr-only">email</label>
-        <input type="email" name="email" id="email" placeholder="Email Address" required>
+        <label for="myEmail" class="sr-only">email</label>
+        <input type="email" name="email" id="myEmail" placeholder="Email Address" required>
       </div>
       <div class="form-control">
         <label for="message" class="sr-only">message</label>
@@ -300,7 +327,7 @@
       </div>
       <input class="inter-font submit_btn pressed" type="submit" value="Get in touch">
     </form>
-    <span id="message-validator"></span>
+    <span id="validator-message"></span>
   </section>
 
 
@@ -338,6 +365,8 @@
   </section>
   <!-- End Social Media -->
   <script src="script.js"></script>
+  <script src="modal.js"></script>
+  <script src="form.js"></script>
 </body>
 
 </html>
