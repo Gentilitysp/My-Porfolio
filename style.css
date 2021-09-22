@@ -88,6 +88,83 @@ header nav.menu-icons span {
   cursor: pointer;
 }
 
+.mobile-menu-hidden {
+  display: none;
+}
+
+#menu-button {
+  border: none;
+  background-color: #3c3a39;
+  color: #fff;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  background-color: #3c3a39;
+}
+
+#close-button {
+  margin-left: auto;
+  display: inline-block;
+}
+
+#mobile-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.menu-links {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+section.works .featured-project .content a {
+  padding: 12px;
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  transition: 0.4s;
+}
+
+section.works .featured-project .content a:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+section.works .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px 0;
+  padding-left: 25px;
+}
+
+section.works .cards .card a:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+#mobile-menu > a {
+  padding-top: 5%;
+}
+
 header div.collapse-menu {
   width: 300px;
 }
@@ -349,32 +426,6 @@ section.works .featured-project .content ul li {
   padding: 10px 5px;
 }
 
-section.works .featured-project .content a {
-  padding: 12px;
-  background: #ff6b00;
-  border: 1px solid #ff6b00;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #fff;
-  transition: 0.4s;
-}
-
-section.works .featured-project .content a:hover {
-  background: #fff;
-  color: #ff6b00;
-}
-
-section.works .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 30px 0;
-  padding-left: 25px;
-}
-
 section.works .cards .card {
   display: flex;
   flex-direction: column;
@@ -460,11 +511,6 @@ section.works .cards .card a.inter-font {
   color: #fff;
   padding: 12px;
   transition: 0.4s;
-}
-
-section.works .cards .card a:hover {
-  background: #fff;
-  color: #ff6b00;
 }
 
 @media screen and (max-width: 992px) {
